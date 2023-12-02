@@ -1,0 +1,62 @@
+/* Resetowanie domyœlnych stylów przegl¹darki */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Stylizacja body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Stylizacja nag³ówka h1 */
+h1 {
+  color: #007bff;
+}
+
+/* Stylizacja akapitu p */
+p {
+  margin-bottom: 15px;
+}
+
+/* Stylizacja linków */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Stylizacja klasy .container */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Stylizacja sekcji o klasie .main-section */
+.main-section {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Dodatkowe style dla przyk³adu */
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
